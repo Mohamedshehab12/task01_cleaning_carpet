@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the num of small carpe: ");
+            Console.WriteLine("Enter the number of small carpe: ");
             double small = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter the num of large carpe: ");
+            Console.WriteLine("Enter the number of large carpe: ");
             double large = Convert.ToDouble(Console.ReadLine());
             double taxi = 0.06;
             double cost = 25 * small + 35 * large;
